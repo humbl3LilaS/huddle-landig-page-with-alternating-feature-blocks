@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32"
+        href="./images/favicon-32x32.png">
+
+  <!--  import font awesome-->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+  <!--  link style sheet-->
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>Frontend Mentor | Huddle landing page with alternating feature
+    blocks</title>
+
+
+</head>
+<body>
+<!--   Header start-->
+<header class="header">
+
+  <a href="#main-content" class="skip-nav-link">Skip to Main Content</a>
+
+  <!-- header-nav start -->
+  <nav class="header-nav" aria-label="header navigation">
+
+    <ul class="header-nav_list">
+
+      <li class="header-nav_logo">
+        <a href="#" class="header-nav_link" aria-label="Logo of Huddle">
+          <img src="./images/logo.svg" alt="Logo of Huddle" class="header-logo">
+        </a>
+      </li>
+
+      <li class="header-nav_btn">
+        <a href="#" class="btn btn-header" role="button">
+          Try It Free
+        </a>
+      </li>
+
+    </ul>
+
+  </nav> <!-- header-nav end-->
+
+</header> <!-- Header end-->
+
+<main id="main-content">
+
+  <!-- section-hero start-->
+  <section class="section-hero" role="banner">
+
+    <div class="hero-information">
+      <h1 class="heading-primary" id="heading-hero">
+        Build The Community Your
+        Fans Will
+        Love</h1>
+      <p class="hero-text" aria-labelledby="heading-hero">
+        Huddle re-imagines the way we build communities. You have a voice, but
+        so does your audience.
+        Create connections with your users as you engage in genuine discussion.
+      </p>
+      <a href="#" class="btn btn-hero" role="button">Get Started For Free</a>
+    </div>
+
+    <!-- hero image-->
+    <div class="hero-img_container" role="img">
+      <img src="./images/illustration-mockups.svg"
+           alt="Illustration of Mockup " class="hero-img">
+    </div>
+
+  </section> <!-- section-hero end -->
+
+
+  <!-- section-feature start -->
+  <section class="section-feature">
+
+    <!--    This heading is hidden from visual of normal user but available for
+    screen reader-->
+    <h2 class="accessibility"
+        aria-hidden="false">
+      This is the feature of our site
+    </h2>
+
+    <!-- article container start-->
+    <div class="article-container">
+
+
+      <!-- article start-->
+      <article class="feature-article">
+        <img src="./images/illustration-grow-together.svg"
+             alt="Illustration related to Grow Together" class="article-img"
+             aria-labelledby="article-heading_one">
+
+        <div class="article-information">
+          <h3 class="heading-tertiary" id="article-heading_one">Glow Together</h3>
+          <p class="article-text">
+            Generate meaningful discussions with your audience and build a
+            strong,
+            loyal community.
+            Think of the insightful conversations you miss out on with a
+            feedback
+            form.
+          </p>
+        </div>
+      </article> <!-- article end-->
+
+      <!-- article start-->
+      <article class="feature-article">
+        <img src="./images/illustration-flowing-conversation.svg"
+             alt="Illustration related to Grow Together" class="article-img"
+             aria-labelledby="article-heading_two">
+
+        <div class="article-information">
+          <h3 class="heading-tertiary" id="article-heading_two">Flowing
+            Conversations</h3>
+          <p class="article-text">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads
+            have just-in-time loading for a more natural flow.
+          </p>
+        </div>
+
+      </article> <!-- article end-->
+
+
+      <!-- article start-->
+      <article class="feature-article">
+        <img src="./images/illustration-your-users.svg"
+             alt="Illustration related to Grow Together" class="article-img"
+             aria-labelledby="article-heading_three">
+
+        <div class="article-information">
+
+          <h3 class="heading-tertiary" id="article-heading_three">Your Users</h3>
+          <p class="article-text">
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution.
+            This means, once signed in to your app, your users can start
+            chatting immediately.
+          </p>
+        </div>
+
+      </article> <!-- article end-->
+
+    </div> <!-- article start-->
+
+  </section> <!-- section-feature end -->
+
+  <section class="section-cta">
+    <div class="section-cta_container">
+      <h2 class="heading-secondary">
+      Ready To Build Your Community?
+    </h2>
+
+      <a href="#" class="btn btn-cta" role="button">
+        Get Started For Free
+      </a></div>
+  </section>
+</main>
+<footer class="footer">
+
+
+
+  <div class="information_container">
+    <div class="footer-logo_container">
+      <a href="#" class="footer-logo_link" aria-label="Footer Logo of huddle"
+         role="heading" aria-level="2">
+        <img src="./images/logo.svg" alt="Logo of Huddle" class="footer-logo">
+      </a>
+    </div>
+    <address class="information_address">
+      <img src="./images/icon-location.svg" alt="Icon that describe location"
+           class="footer-icon">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+        asperiores, at autem deserunt dolores dolorum, eveniet facilis id illum
+        itaque maxime molestiae perferendis quaerat quas qui repellendus
+        reprehenderit sint unde.</p>
+    </address>
+    <p class="information_contact">
+      <img src="./images/icon-phone.svg" alt="Icon that represent phone"
+           class="footer-icon" aria-labelledby="phone_num">
+      <a href="tel: +15431234567" id="phone_num" class="information_link">
+        +1-534-123
+        -4567</a>
+    </p>
+    <p class="information_contact">
+      <img src="./images/icon-email.svg" alt="Icon that represent email"
+           class="footer-icon" aria-labelledby="email">
+      <a href="mailto: example@fylo.com" class="information_link" id="email">
+        example@fylo.com
+      </a>
+    </p>
+  </div>
+
+  <nav class="footer_nav" aria-label="Footer navigation">
+
+    <!--    normal navigation links-->
+    <ul class="footer-nav_container">
+
+      <li class="footer-nav_item">
+        <a href="#" class="footer-nav_link">
+          About Us
+        </a>
+      </li>
+
+      <li class="footer-nav_item">
+        <a href="#" class="footer-nav_link">
+          What We Do
+        </a>
+      </li>
+
+      <li class="footer-nav_item">
+        <a href="#" class="footer-nav_link">
+          FAQ
+        </a>
+      </li>
+
+      <li class="footer-nav_item">
+        <a href="#" class="footer-nav_link">
+          Career
+        </a>
+      </li>
+
+      <li class="footer-nav_item">
+        <a href="#" class="footer-nav_link">
+          Blog
+        </a>
+      </li>
+
+      <li class="footer-nav_item">
+        <a href="#" class="footer-nav_link">
+          Contact Us
+        </a>
+      </li>
+
+    </ul>
+
+
+    <!--    social media links-->
+    <ul class="footer-nav_social">
+      <li class="footer-nav_item">
+        <a href="#" class="footer-social_link"
+           aria-label="navigation link for Facebook page of Huddle">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+      </li>
+      <li class="footer-nav_item">
+        <a href="#" class="footer-social_link"
+           aria-label="navigation link for Instagram account of Huddle">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+      <li class="footer-nav_item">
+        <a href="#" class="footer-social_link"
+           aria-label="navigation link for twitter account of Huddle">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </li>
+
+      <li class="footer-nav_item copyright">
+        <p>
+          &copy; Copyright 2018 Huddle. All rights reserved.
+        </p>
+      </li>
+    </ul>
+
+  </nav>
+
+
+</footer>
+
+
+</body>
+</html>
